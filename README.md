@@ -1,4 +1,4 @@
-Segregate Photos on date in such structure:
+## Segregate Photos based on date in following folder structure:
 
 
 ```
@@ -6,12 +6,12 @@ Year
 |
 |->Month
    |
-   |->phone1.jpg
-   |->phone2.jpg
-   |->phone3.jpg
+   |->photos1.jpg
+   |->photos2.jpg
+   |->photos3.jpg
 ```
 
-Examples:
+### Examples:
 ```
 2017
 |
@@ -21,9 +21,18 @@ Examples:
      | -> photos2.jpg
 ```
 
-Useful commands:
+### Useful commands:
 * ls
 * cat
 * for loop
 * echo
+
+### Command to run the script
+
+```
+bash -f segregate.sh
+```
+### Learn more about bash here
+
+[Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)
 
